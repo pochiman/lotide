@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@pochiman/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/pochiman/lotide.git"
   },
-  "author": "",
+  "author": "Pocholo Tan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pochiman/lotide/issues"
