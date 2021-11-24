@@ -32,7 +32,7 @@ const assertArraysEqual = function(array1, array2) {
 module.exports = assertArraysEqual;
 
 
-// FUNCTION IMPLEMENTATION
+// FUNCTION IMPLEMENTATION: takes in an array and a callback and returns a new array based on the results of the callback on each item in the array
 const words = ["ground", "control", "to", "major", "tom"];
 
 const map = function(array, callback) {
