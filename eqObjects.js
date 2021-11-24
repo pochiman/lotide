@@ -1,4 +1,4 @@
-// FUNCTION IMPLEMENTATION
+// FUNCTION IMPLEMENTATION: takes in 2 values and returns true if they are equal and false otherwise
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`👍 Assertion Passed: ${actual} === ${expected}`);
@@ -10,7 +10,7 @@ const assertEqual = function(actual, expected) {
 module.exports = assertEqual;
 
 
-// FUNCTION IMPLEMENTATION
+// FUNCTION IMPLEMENTATION: takes in 2 arrays and returns true if the arrays are equal and false otherwise
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -32,7 +32,7 @@ const eqArrays = function(array1, array2) {
 module.exports = eqArrays;
 
 
-// FUNCTION IMPLEMENTATION
+// FUNCTION IMPLEMENTATION: takes in 2 objects and return true if they are equal and false otherwise
 const eqObjects = function(object1, object2) {
   if (Object.keys(object1).length !== Object.keys(object2).length) return false;
 
