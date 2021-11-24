@@ -1,4 +1,4 @@
-// FUNCTION IMPLEMENTATION
+// FUNCTION IMPLEMENTATION: takes in 2 arrays and returns true if the arrays are equal and false otherwise
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -20,7 +20,7 @@ const eqArrays = function(array1, array2) {
 module.exports = eqArrays;
 
 
-// FUNCTION IMPLEMENTATION
+// FUNCTION IMPLEMENTATION: takes in 2 arrays and returns true if they are equal and false otherwise
 const assertArraysEqual = function(array1, array2) {
   if (eqArrays(array1, array2)) {
     console.log(`👍 Assertion Passed: ${array1} === ${array2}`);
@@ -32,7 +32,7 @@ const assertArraysEqual = function(array1, array2) {
 module.exports = assertArraysEqual;
 
 
-// FUNCTION IMPLEMENTATION
+// FUNCTION IMPLEMENTATION: takes in an array and callback and returns a slice of the array based on the criteria specified in the callback
 const takeUntil = (array, callback) => {
   let newArray = [];
   for (let element of array) {
