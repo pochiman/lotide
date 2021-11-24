@@ -1,5 +1,5 @@
-const middle = require('../middle')
 const assert = require('chai').assert;
+const middle = require('../middle')
 
 describe("#middle", () => {
 
@@ -22,7 +22,7 @@ describe("#middle", () => {
 // const assertArraysEqual = require('../assertArraysEqual');
 // const middle = require('../middle');
 
-// // TEST CODE
+// // TEST CODE 
 // console.log(middle([1])); // => []
 // console.log(middle([1, 2])); // => []
 
