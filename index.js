@@ -9,6 +9,8 @@ const findKeyByValue = require('./findKeyByValue');
 const head = require('./head');
 const map = require('./map');
 const middle = require('./middle');
+const takeUntil = require('./takeUntil');
+const without = require('./without');
 
 module.exports = {
   assertArraysEqual,
@@ -21,5 +23,7 @@ module.exports = {
   findKeyByValue,
   head,
   map,
-  middle
+  middle,
+  takeUntil,
+  without
 };
